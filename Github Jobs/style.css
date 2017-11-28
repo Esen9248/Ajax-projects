@@ -1,0 +1,11 @@
+#mainDiv{
+	display: flex;
+	flex-wrap: wrap;
+}
+.posts{
+	margin: 10px;
+	width: 350px;
+}
+h3, h4{
+	margin: 0; 
+}

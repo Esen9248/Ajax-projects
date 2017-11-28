@@ -1,0 +1,10 @@
+#maindiv{
+	display: flex;
+	flex-wrap: wrap;
+}
+.ForecastDays{
+	margin: 10px;
+}
+#title{
+	text-align: center;
+}
