@@ -1,5 +1,5 @@
 $('#mainbtn').click(function(){
-	$(this).text('Имем...')
+	$(this).text('Ищем...')
 	$('#maindiv').html('');
 	var EncodedUrl = encodeURIComponent($('#maininp').val())
 	$.get(`https://anapioficeandfire.com/api/characters?name=${EncodedUrl}`,
