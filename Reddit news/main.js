@@ -1,5 +1,6 @@
 var images;
 $('#mainbtn').click(function(){
+	$('#maindiv').html('');
 	$(this).text('Загружается...');
 $.get("https://www.reddit.com/r/gaming.json?limit=20",
  function (response){
